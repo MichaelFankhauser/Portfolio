@@ -33,7 +33,7 @@ const AboutMe = () => {
             animate={"animate"}>
             <motion.div className="textContainer" variants={varaints}>
                 <p>I am Michael
-                <br/>and I try to create things
+                <br/>and I like to create things
                 </p>
                 <hr/>
             </motion.div>
@@ -57,7 +57,7 @@ const AboutMe = () => {
                         Im Sommer 2023 habe ich den schulischen Teil der Ausbildung abgeschlossen. Für meinen EFZ Abschluss absolviere ich jetzt an der Santis Training AG in Altstetten ein Praktikum. Im Sommer 2025 schliesse ich dann meine Ausbildung ab.
 
                     </p>
-                    <a href="Video"><button>Mehr</button></a>
+                    <a href=""><button>Download CV</button></a>
                 </motion.div>
                 <motion.div className="box" whileHover={{ background: "lightgray", color: "black"}}>
                     <h2>Skills</h2>
@@ -65,7 +65,7 @@ const AboutMe = () => {
                         In den 2 Jahren schulischer Ausbildung und in der Santis Training AG habe ich bereits eine breite Palette an Programmiersprachen und Frameworks kennengelernt.
                         Wenn Sie auf den Button "Mehr" drücken, sehen Sie eine genaue Auflistung aller Skills im Frontend, Backend und anderen Bereichen. Unter Projekte habe ich noch zwei, drei GitHub Projekte aufgelistet.
                     </p>
-                    <a href="Skills"><button>Mehr</button></a>
+                    <a href="#Skills"><button>Mehr</button></a>
                 </motion.div>
                 <motion.div className="box" whileHover={{ background: "lightgray", color: "black"}}>
                     <h2>Freizeit</h2>

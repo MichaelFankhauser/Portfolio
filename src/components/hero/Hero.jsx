@@ -55,7 +55,7 @@ const Hero = () => {
             <motion.button variants={textVariants}>
               Video
             </motion.button>
-            <motion.button variants={textVariants}>
+            <motion.button variants={textVariants} href={'#Kontakt'}>
               Kontaktieren Sie mich
               </motion.button>
           </motion.div>

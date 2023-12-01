@@ -1,0 +1,21 @@
+@import "../../app.scss";
+.video {
+    background: linear-gradient(0deg, #0c0c1d, #111132);
+    height: 100%;
+    display: flex;
+}
+
+.videoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    @include mobile {
+        align-self: center;
+        text-align: center;
+        flex-direction: column;
+    }
+}
