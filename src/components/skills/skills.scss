@@ -7,6 +7,15 @@
     justify-content: space-between;
 }
 
+.skillContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+
 .titleContainer {
     flex: 1;
     display: flex;
@@ -45,6 +54,7 @@
     max-width: 1366px;
     margin: auto;
     margin-bottom: 50px;
+    justify-content: center;
 
     @include mobile {
       flex-direction: column;
@@ -70,6 +80,13 @@
           display: none;
         }
       }
+
+      h2 {
+        justify-content: center;
+        display: flex;
+      }
     }
   }
+
+
 

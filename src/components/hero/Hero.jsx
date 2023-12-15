@@ -51,14 +51,6 @@ const Hero = () => {
           <motion.h1 variants={textVariants}>
             Applikationsentwickler in Ausbildung
           </motion.h1>
-          <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
-              Video
-            </motion.button>
-            <motion.button variants={textVariants} href={'#Kontakt'}>
-              Kontaktieren Sie mich
-              </motion.button>
-          </motion.div>
           <motion.img
             variants={textVariants}
             animate="scrollButton"
@@ -76,7 +68,7 @@ const Hero = () => {
         Coding Graphic
       </motion.div>
       <div className="imageContainer">
-        <img src="" alt="" />
+        <img src="/hero1.png" alt="" />
       </div>
     </div>
   );

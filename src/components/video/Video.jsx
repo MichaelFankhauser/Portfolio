@@ -28,12 +28,12 @@ const Video = () => {
         <motion.div className="video" id="Video" variants={varaints}
             initial="initial"
             // animate="animate"
-            // whileInView="animate"
+            whileInView="animate"
             ref={ref}
             animate={"animate"}>
             <motion.div className="videoContainer" variants={varaints}>
                 <video controls width="85%">
-                    <source src="/Komp 1.mp4" type="video/mp4"></source>
+                    <source src="/Bewerbungsvideo.mp4" type="video/mp4"></source>
                 </video>
             </motion.div>
         </motion.div>

@@ -31,6 +31,7 @@ const AboutMe = () => {
             // whileInView="animate"
             ref={ref}
             animate={"animate"}>
+
             <motion.div className="textContainer" variants={varaints}>
                 <p>I am Michael
                 <br/>and I like to create things
@@ -57,7 +58,7 @@ const AboutMe = () => {
                         Im Sommer 2023 habe ich den schulischen Teil der Ausbildung abgeschlossen. Für meinen EFZ Abschluss absolviere ich jetzt an der Santis Training AG in Altstetten ein Praktikum. Im Sommer 2025 schliesse ich dann meine Ausbildung ab.
 
                     </p>
-                    <a href=""><button>Download CV</button></a>
+                    <a href=""><button className="fillerbutton"></button></a>
                 </motion.div>
                 <motion.div className="box" whileHover={{ background: "lightgray", color: "black"}}>
                     <h2>Skills</h2>
@@ -73,9 +74,9 @@ const AboutMe = () => {
                         Meine Freizeit verbringe ich vorallem mit Lesen und Kochen. Am Laptop zu Hause versuche ich meine Kreativität auszuleben in den Adobe Programmumgebungen.
                         Die restliche Zeit verteilt sich zwischen Kolleg*innen und der Guuggenmusik. Ich bin seit 9 Jahren bei den Latärneguugger Schötz Mitglied und 7 Jahre davon im OK.
                     </p>
-                    <a href="Freizeit"><button>Mehr</button></a>
+                    <a href="#Freizeit"><button>Mehr</button></a>
                 </motion.div>
-            </motion.div>           
+            </motion.div>         
         </motion.div>
     )
 }

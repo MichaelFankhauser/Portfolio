@@ -16,9 +16,9 @@ const Navbar = () => {
             Michael Fankhauser
         </motion.span>
         <div className="social">
-            <a href="#"><img src="/instagram.png"></img></a>
-            <a href="#"><img src="/facebook.png"></img></a>
-            <a href="#"><img src="/youtube.png"></img></a>
+            <a href="https://www.instagram.com/_fanki/"><img className="socialimage"src="/instagram.png"></img></a>
+            <a href="https://www.facebook.com/michael.fankhauser.37"><img className="socialimage"src="/facebook.png"></img></a>
+            <a href="https://github.com/MichaelFankhauser"><img className="socialimage"src="/github.png"></img></a>
         </div>
       </div>
     </div>

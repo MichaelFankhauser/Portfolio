@@ -7,6 +7,8 @@ import AboutMe from "./components/aboutme/AboutMe";
 import Contact from "./components/contact/Contact";
 import Video from "./components/video/Video";
 import Skills from "./components/skills/Skills";
+import Projects from "./components/projects/Projects"
+import Freizeit from "./components/freizeit/Freizeit";
 
 const App = () => {
   return (
@@ -29,12 +31,14 @@ const App = () => {
       <Skills />
     </section>
     <section id="Projekte">
-      <Parallax type="projekte"/>
+      <Projects />
+    </section>
+    <section id="Freizeit">
+      <Parallax type="freetime"/>
     </section>
     <section>
-
+      <Freizeit/>
     </section>
-    <section>Portfolio2</section>
     <section id="Kontakt">
       <Contact />
     </section>
