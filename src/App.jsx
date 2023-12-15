@@ -9,6 +9,7 @@ import Video from "./components/video/Video";
 import Skills from "./components/skills/Skills";
 import Projects from "./components/projects/Projects"
 import Freizeit from "./components/freizeit/Freizeit";
+import AboutMeImage from "./components/aboutmeimage/AboutMeImage";
 
 const App = () => {
   return (
@@ -20,7 +21,10 @@ const App = () => {
     </section>
     <section id="About Me">
       <Parallax type="aboutme"/>
-      </section>
+    </section>
+    <section>
+      <AboutMeImage/>
+    </section>
     <section>
       <AboutMe />
     </section>

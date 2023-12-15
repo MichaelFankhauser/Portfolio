@@ -1,0 +1,26 @@
+@import "../../app.scss";
+
+.aboutmeimage {
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    background: linear-gradient(0deg, #0c0c1d, #111132);
+    position: relative;
+    justify-content: center;
+}
+
+.imageContainer1 {
+    height: 100%;    
+
+    @include mobile {
+      height: 50%;
+      width: 100%;
+      top: unset;
+      bottom: 0;
+    }
+
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }

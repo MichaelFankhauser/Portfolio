@@ -66,7 +66,7 @@
       border: 0.5px solid gray;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      align-items: center;
 
       @include mobile {
         border: none;
